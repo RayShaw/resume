@@ -1,0 +1,19 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
+
+# Office temporary files
+~$*
+*.tmp
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
