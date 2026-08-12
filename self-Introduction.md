@@ -29,8 +29,8 @@ I used TypeScript and business APIs to show the right content for each campaign 
 
 On the backend, I designed Java 17 and Spring Boot 3 APIs and database calls for coupon orders. The service checked the order and payment result before issuing coupons. Refund rollback kept the order, payment, and coupon records consistent if one step failed. I also handled WeChat login checks and kept token state in Redis, including refresh, expiration, and logout.
 
-## Project 2: Operations admin system
 
+## Project 2: Operations admin system
 
 I worked on the operations admin system. Staff managed members, coupons, settings, and dashboards.
 
