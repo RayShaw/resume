@@ -19,9 +19,9 @@ I am looking for a full-stack role where I can use my frontend strengths and con
 
 ## Project 1: WeChat Mini Program
 
-I worked on a WeChat Mini Program for membership benefits and coupon campaigns. It supported more than 10,000 members. I built campaign pages, coupon distribution and redemption flows, and membership package purchase pages.
+I worked on a WeChat Mini Program for membership benefits and coupon activities. It supported more than 10,000 members. I built activities pages, coupon distribution and redemption flows, and membership package purchase pages.
 
-I used TypeScript and backend APIs to show the right content for different campaign and coupon states. I disabled repeated actions while a request was in progress and showed clear loading, payment, and error states. I also moved non-home pages into subpackages and combined duplicate API requests. This reduced the initial download size and unnecessary data loading.
+I used TypeScript and backend APIs to show the right content for different activities and coupon states. I disabled repeated actions while a request was in progress and showed clear loading, payment, and error states. I also moved non-home pages into subpackages and combined duplicate API requests. This reduced the initial download size and unnecessary data loading.
 
 On the backend, I contributed to the design and integration of member, coupon, and login APIs built with Java 17, Spring Boot 3, and MyBatis-Plus. I helped confirm the API contracts with SpringDoc OpenAPI and add JUnit tests for key cases. I also helped integrate WeChat login, including client-side JWT checks and Redis-based token refresh and logout. The server performed the final authentication and permission checks.
 
