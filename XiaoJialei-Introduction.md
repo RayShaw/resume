@@ -44,6 +44,6 @@ Across the admin system and Mini Program, I delivered more than 100 pages and bu
 
 One challenge I faced was slow loading in our WeChat Mini Program. Many business pages were in the main package, and the home page made some API requests more than once. This page was the main entry point for members, so its speed affected their first experience with the Mini Program.
 
-I checked the startup flow and found what loaded when the app opened. I used Mini Program subpackages, so pages that were not needed at startup loaded only when users opened them. I combined duplicate API calls and added two cache layers, one on the frontend and one in Redis on the server. I tested the main flows and error cases before release.
+I checked the startup flow and found what loaded when the WeChat Mini Program opened. I used Mini Program subpackages, so pages that were not needed at startup loaded only when users opened them. I combined duplicate API calls and added two cache layers, one on the frontend and one in Redis on the server. I tested the main flows and error cases before release.
 
-This reduced the initial download size and unnecessary data loading, so the app opened faster. My frontend experience helped me find the problem, and my backend knowledge helped me choose a solution that worked on both sides. The team also kept its weekly release schedule.
+This reduced the initial download size and unnecessary data loading, so the WeChat Mini Program opened faster. My frontend experience helped me find the problem, and my backend knowledge helped me choose a solution that worked on both sides. The team also kept its weekly release schedule.
