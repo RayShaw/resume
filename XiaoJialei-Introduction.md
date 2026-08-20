@@ -7,7 +7,7 @@ In my most recent role, I mainly worked on a WeChat Mini Program and its admin p
 
 Frontend development was my main focus, but I also contributed to Java API design and integration with the backend team. I worked on member, coupon, and login APIs built with Java 17 and Spring Boot 3. I also helped pages load faster and reduced duplicate requests by adding caching on the frontend and in Redis.
 
-Before that, I built data dashboards with Vue and ECharts for a web data analysis system. Earlier, I worked on a clinical data system using React, Node.js, and MongoDB. I started my career as a Java developer. These roles gave me experience in frontend, backend, and database work.
+Before that, I built data dashboards with Vue.js and ECharts for a web data analysis system. Earlier, I worked on a clinical data system using React, Node.js, and MongoDB. I started my career as a Java developer. These roles gave me experience in frontend, backend, and database work.
 
 One thing I do well is take a feature from requirements to production. I can discuss requirements and user flows, build the frontend, integrate the API, test and release the feature, and fix production issues. I work closely with product managers, designers, and backend engineers. I sometimes use Codex and Claude Code to help with development, but I review every change and run tests.
 
